@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HAHAAHA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+  
+    <br><br><br><br><br><br><br><br>
+    <form id="data">
+
+        <div class="divTable">
+            <div class="divTableBody">
+                <div class="divTableRow">
+                    <div class="divTableCell">
+                        <label>User Login: </label></div>
+                    <div class="divTableCellm"><input id="userName" type="text" required></div>
+                    <div class="divTableCellr"></div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell"><label>Password: </label></div>
+                    <div class="divTableCellm"><input id="pass" type="password" required></div>
+                    <div class="divTableCellr">&nbsp;</div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell"><label>Confirm Password: </label></div>
+                    <div class="divTableCellm"><input id="confirmPass" type="password" required></div>
+                    <div class="divTableCellr">&nbsp;</div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell"><label>Gender: </label></div>
+                    <div class="divTableCellm">
+                        <select required>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select></div>
+                    <div class="divTableCellr">&nbsp;</div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell"><label>Email: </label></div>
+                    <div class="divTableCellm"><input id="emailReg" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required></div>
+                    <div class="divTableCellr">&nbsp;</div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell"><button type="submit" name="Register" onclick="validateData()">Register</button></div>
+                    <div class="divTableCellm">&nbsp;</div>
+                    <div class="divTableCellr">&nbsp;</div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCellm">&nbsp;</div>
+                    <div class="divTableCellr">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
